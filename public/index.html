@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tasks menager</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@300;400;700&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/34799b0c0e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/all.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">Tasks menager</h1>
+      <div class="main-task-menu">
+        <div class="menu-options">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <ul class="items-pulldown category-pulldown">
+            <li>
+              <h3 class="uncheck-done-task">Odznacz zakończone</h3>
+            </li>
+            <li>
+              <h3 class="check-all-tasks">Zakończ wszystkie</h3>
+            </li>
+            <!--        <li class="options-hide-checked-tasks">-->
+            <!--          <h3 class="hide-checked-tasks">Ukryj zakończone</h3>-->
+            <!--          <input-->
+            <!--                  class="hide-checked-tasks checkbox-hide-tasks"-->
+            <!--                  type="checkbox"-->
+            <!--                  name=""-->
+            <!--                  id=""-->
+            <!--          />-->
+            <!--        </li>-->
+            <li>
+              <h3 class="delete-checked-tasks">Usuń zakończone</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="new-task">
+          <form action="" class="form-input-new-task">
+            <input
+              class="input-new-task"
+              type="text"
+              placeholder="Dodaj nowe zadanie"
+            />
+          </form>
+        </div>
+        <button class="btn-add-task">Dodaj</button>
+      </div>
+
+      <div class="list-of-tasks">
+        <!--        <div class="task">-->
+        <!--          <input data-id="50" class="checkbox-of-task" type="checkbox" />-->
+        <!--          <div class="infoAboutTask">-->
+        <!--            <h3 data-id="50" class="name-of-task">Tu sprawdzaca</h3>-->
+        <!--            <h4>Zakończone poniedziałek 15 lis 18.55</h4>-->
+        <!--          </div>-->
+        <!--          <div class="settings">-->
+        <!--            <i class="fa-solid fa-ellipsis"></i>-->
+        <!--            <ul class="task-menu">-->
+        <!--              <li class="btn-edit-name-of-task" data-id="50">-->
+        <!--                <i class="fa-solid fa-pen"></i>Edytuj-->
+        <!--              </li>-->
+        <!--              <li class="btn-delete-task" data-id="50">-->
+        <!--                <i class="fa-solid fa-trash"></i>Usun-->
+        <!--              </li>-->
+        <!--            </ul>-->
+        <!--          </div>-->
+        <!--        </div>-->
+
+        <!-- kopia tego wyzej -->
+        <!--        <div class="task">-->
+        <!--          <input class="checkbox-of-task" type="checkbox" checked />-->
+        <!--          <div class="infoAboutTask">-->
+        <!--            <h3 class="name-of-task" class="checked">Mąkanr 2</h3>-->
+        <!--            <h4>Zakończone poniedziałek 15 lis 18.55</h4>-->
+        <!--          </div>-->
+        <!--          <div class="settings">-->
+        <!--            <i class="fa-solid fa-ellipsis"></i>-->
+        <!--            <ul class="task-menu">-->
+        <!--              <li class="btn-edit-name-of-task">-->
+        <!--                <i class="fa-solid fa-pen"></i>Edytuj-->
+        <!--              </li>-->
+        <!--              <li class="btn-delete-task">-->
+        <!--                <i class="fa-solid fa-trash"></i>Usun-->
+        <!--              </li>-->
+        <!--            </ul>-->
+        <!--          </div>-->
+        <!--        </div>-->
+      </div>
+      <div class="counter-tasks">
+        <h2 class="count-of-tasks-done">1</h2>
+        <h2>/</h2>
+        <h2 class="count-of-tasks">2</h2>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="javascripts/index.js"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>

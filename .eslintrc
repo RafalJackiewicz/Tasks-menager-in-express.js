@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "requireConfigFile": false
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": "airbnb",
+  "rules": {}
+}
